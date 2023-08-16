@@ -26,8 +26,8 @@ def sqr(a):
     c = a**0.5
     return c 
 
-a = st.number_input("Input your fist number")
-b = st.number_input("Input your next number")
+a = st.number_input("Input your fist number", step = 1)
+b = st.number_input("Input your next number", step = 1)
 
 c1, c2, c3 = st.columns(3)
 with c1:
